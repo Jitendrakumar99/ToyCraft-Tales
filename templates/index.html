@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+  <div class="hero-text">
+    <p class="eyebrow">Dashboard And Story Embed With UI With Flask</p>
+    <h1>ToyCraft Tales: Tableau's Vision into Toy Manufacturer Data</h1>
+    <p class="lead">
+      Explore manufacturing trends, geographic concentration, and performance insights for toy makers.
+      The dashboard and story are embedded below with a clean, modern interface.
+    </p>
+    <div class="cta-row">
+      <a class="btn primary" href="{{ url_for('dashboard') }}">Get Started</a>
+      <a class="btn ghost" href="{{ url_for('story') }}">View Story</a>
+    </div>
+  </div>
+  <div class="hero-card">
+    <div class="hero-image" role="img" aria-label="Toy factory overview"></div>
+    <div class="stat-grid">
+      <div class="stat">
+        <span class="stat-number">50+</span>
+        <span class="stat-label">States tracked</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">1,000+</span>
+        <span class="stat-label">Data points</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">10</span>
+        <span class="stat-label">Top makers</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="split">
+  <div class="panel">
+    <p class="eyebrow">Who We Are</p>
+    <h2>Data-led storytelling for toy manufacturing insights.</h2>
+    <p>
+      Toy manufacturing spans design, production, and distribution. This experience brings Tableau views
+      into a cohesive interface so you can explore the market story without leaving the site.
+    </p>
+    <a class="btn primary" href="{{ url_for('about') }}">Read More</a>
+  </div>
+  <div class="panel image-panel">
+    <div class="about-image" role="img" aria-label="Colorful toy characters"></div>
+  </div>
+</section>
+{% endblock %}
