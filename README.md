@@ -1,40 +1,46 @@
-# Data Analytics with Tableau
+# 🎲 ToyCraft Tales: Tableau’s Vision into Toy Manufacturer Data
 
-## Project Title
-ToyCraft Tales: Tableau's Vision into Toy Manufacturer Data
+**Team ID:** LTVIP2026TMIDS34329  
+**Project Members:**
+- Team Leader: Dharanikota Vimala Subhashini
+- Team Member:Garapati Sri Pradeepthi
+- Team Member:Jitendra Kumar
+- Team Member:Nagalla Devi
+- Team Member:Anji Babu Manyam
 
-## Project Description
-This internship project leverages Tableau to explore Toy Manufacturers' data and uncover market trends, production patterns, and consumer preferences. The goal is to build interactive visualizations that guide strategic decisions and enhance market competitiveness.
+---
 
-The Toy Manufacturers' Data Exploration and Visualization Project provides a comprehensive analysis of the industry by examining historical sales, market evolution, and customer behavior. The insights help align product development with demand and support data-driven planning.
+## 📌 Project Overview
+**ToyCraft Tales** is a Tableau-driven data analytics project focused on visualizing trends in the U.S. toy manufacturing industry. Our goal was to uncover patterns in manufacturer participation over time and identify regional hotspots using rich data visualizations.
 
-## Objectives
-- Analyze market trends within the toy manufacturing sector.
-- Examine production and sales patterns over time.
-- Explore consumer preferences and demographic insights.
-- Build interactive Tableau visualizations to support decision-making.
+## 📂 Repository Structure
+This repository organizes the project lifecycle into the following directories:
 
-## Key Analyses
-- Market trend analysis using historical sales data to identify seasonal and long-term patterns.
-- Consumer preference analysis across demographics such as age, gender, and location.
-- Regional performance comparison to optimize distribution and inventory.
+- **`Project/6.Project Executable files/`**: Contains the main deliverables.
+  - `ToyCraft Manufacturers.twbx`: The Tableau Packaged Workbook containing the dashboard and stories.
+  - `Week 39 - US Toy Manufacturers - 2005 to 2016.csv`: The source dataset.
+- **`Project/8.Doc and Demo/`**: Documentation and demonstration materials.
+  - `Project Final Report.pdf`: Comprehensive project report.
+  - `Video demo.txt`: Text file containing the link to the video demonstration.
+- **Other Directories**: Contain artifacts for Assignments, Ideation, Requirement Analysis, Design, Planning, and Testing phases.
 
-## Scenarios
+## 🚀 Getting Started
+To explore the analysis and visualizations:
+1. Ensure you have **Tableau Desktop** or **Tableau Reader** installed.
+2. Navigate to the `Project/6.Project Executable files/` directory.
+3. Open the `ToyCraft Manufacturers.twbx` file.
 
-### Scenario 1: Market Trend Analysis for Seasonal Products
-The project explores sales trends across seasons and holidays to identify when specific toy categories peak in demand. These insights help optimize production schedules and marketing strategies to maximize sales during high-demand periods.
+## 🔍 Problem Statement
+Understanding how and where toy manufacturers operate is vital for identifying industry shifts, consolidation, and growth opportunities. This project helps stakeholders gain insights into trends over time, geographical concentration, and the overall health of the toy manufacturing sector.
 
-### Scenario 2: Consumer Preference Analysis Across Demographics
-Using demographic data, the project analyzes preferences across age groups, genders, and locations. Interactive visuals show how preferences vary, enabling targeted product development and marketing campaigns.
+## 🧰 Dataset & Cleaning
+The dataset used was fully cleaned and ready for analysis—no additional data cleaning steps were required. It included complete records of manufacturers with fields such as year, state, and an index value used purely for visualization.
 
-### Scenario 3: Product Performance Comparison Across Regions
-Regional sales data is analyzed to identify which toy categories perform best in different areas. Visualizations highlight these differences, supporting better distribution planning and inventory management.
+## 📊 Key Visualizations & Insights
+- **Yearly Manufacturer Trends (2005–2016):** A clear decline from ~1,600 to ~1,100 manufacturers, indicating possible consolidation or declining new launches.
+- **Index Distribution:** Binning by index value highlights shifts in concentration — especially in years like 2014–2015.
+- **State-level Activity:** Visualizations (bubble and bar charts) show California, Texas, Florida, and Washington as leading states in toy manufacturing.
+- **State Ranking Funnel:** Reveals top states with steep drop-offs, emphasizing major vs. minor industry contributors.
 
-## Tools & Technologies
-- Tableau (data visualization and dashboards)
-- Flask (web UI embedding Tableau views)
-- HTML/CSS (frontend layout and styling)
-
-
-
-
+## 🎥 Demo
+[Watch the Project Demo Video](video drive link)
