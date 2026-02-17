@@ -35,6 +35,8 @@ Regional sales data is analyzed to identify which toy categories perform best in
 - Flask (web UI embedding Tableau views)
 - HTML/CSS (frontend layout and styling)
 
+## Video Link
+https://drive.google.com/file/d/1wsUl9h77gvQjd174bgTrCmkSz-x7SFHQ/view?usp=sharing
 
 
 
